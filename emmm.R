@@ -10,6 +10,6 @@ y=dhyper(x, 30, 9970, 10)
 plot(x, y, ylab="pmf", main="hypergeometric probabilities", lwd=2, cex.main=1, col="green") # xlab和ylab表示坐标轴名称，main为标题名称，lwd为描点宽度，cex.main为标题字体大小,col为颜色...
 # 多个图像描点
 plot(x, y1, ylab="pmf", main="hypergeometric probabilities", lwd=2, cex.main=1, col="green")
-lines(x, y2, lwd=2, col="green", type="p") # type控制点或者线的展示形式（plot里的内容不需要重写）
+lines(x, y2, lwd=2, col="green", type="p") # type控制点或者线的展示形式,p为点，l为线（plot里的内容不需要重写）
 #legend函数（图例）
 legend(m, n, legend=c("o", "p", "q"), col=c("r", "s", "t"), lwd=2) # m和n确定图例的位置，o，p，q为图例中的文字，r，s，t为颜色  ！！！不能忘记lwd，不然看不到图例的线条
