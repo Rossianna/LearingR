@@ -13,3 +13,7 @@ plot(x, y1, ylab="pmf", main="hypergeometric probabilities", lwd=2, cex.main=1, 
 lines(x, y2, lwd=2, col="green", type="p") # type控制点或者线的展示形式,p为点，l为线（plot里的内容不需要重写）
 #legend函数（图例）
 legend(m, n, legend=c("o", "p", "q"), col=c("r", "s", "t"), lwd=2) # m和n确定图例的位置，o，p，q为图例中的文字，r，s，t为颜色  ！！！不能忘记lwd，不然看不到图例的线条
+#rep函数,将vectorx复制n遍
+rep(x,n)
+y=rep(1:4,2)
+#y=1 2 3 4 1 2 3 4
