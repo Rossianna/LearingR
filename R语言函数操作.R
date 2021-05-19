@@ -1,4 +1,4 @@
-# R语言用function()定义函数,括号中为参数，前面好像都需要有加号
+# R语言用function()定义函数,括号中为参数，可以为空，括号中的内容前面好像都需要有加号，之后使用function(n)可以直接获得函数值，还有一种写法是在function(n)之后使用return ...来获得结果
 # factorial求阶乘
 y=function(n){
 + out = 1 - sum((-1)^(0:n)/factorial(0:n))
@@ -17,3 +17,11 @@ x = sample(1:5,5,replace=F)
 x == (1:5)
 sum(x == (1:5)) 
 # 以上是求x=1~5之间的值的个数
+
+# R语言中的函数c()中的c代表什么意思？
+# c是concatenate，表示连接的意思，c()函数可以用于创建向量，可以用于function()函数的结果输出，在function()的{}里面，不用写在{}外面
+x=c(0.5, 0.6)  #numeric
+x=c(TRUE, FALSE) # logical
+x=c(T, F) # logical
+x=c("a", "b", "c") # character
+x=c(1+0i, 2+4i) # complex
