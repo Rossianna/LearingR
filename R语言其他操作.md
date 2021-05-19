@@ -5,3 +5,5 @@
 * `options()`: 环境设置函数, 用options()命令可以设置一些环境变量<br><br>
 * 数字位数的设置，options(digits=n),n一般默认情况下是7位，但实际上的范围是1~22,可以随意设置位数<br><br>
 * options(digits=10)，表示把R的整数表示能力设为10位<br><br>
+* `matrix(nrow=xxx, ncol=xxx)`函数:使用 matrix()函数创建一个矩阵
+* nrow - 是要创建的行数，ncol - 要被创建的列的数目
